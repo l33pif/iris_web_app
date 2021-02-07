@@ -27,7 +27,7 @@ with open('lin_reg.pkl', 'wb') as li:
     pickle.dump(lin_regr, li)
 
 with open('log_reg.pkl', 'wb') as lo:
-    pickle.dump(log_reg, lo)
+    pickle.dump(log_regr, lo)
 
 with open('svc_m.pkl', 'wb') as sv:
-    pickle.dump(svc_m, sv)
+    pickle.dump(svc_mo, sv)
